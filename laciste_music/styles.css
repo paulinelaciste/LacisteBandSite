@@ -1,0 +1,135 @@
+/*body {
+  color: white;
+  background-image:url(images/lacistered.JPG);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}*/
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+/*.logo {
+  font-family: "Savoye LET", cursive;
+  font-size: 40px;
+  align-items: end;
+}*/
+
+.socialmedia {
+  color: white;
+  font-family: "Savoye LET", cursive;
+  font-size: 25px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 50px;
+  row-gap: 0;
+  justify-content:flex-end;
+  align-items: end;
+}
+
+.menu {
+  color: white;
+  background-color: black;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 55px 55px 55px 55px 55px 55px;
+  grid-template-rows: 50px;
+}
+
+img {
+  max-width: 100%;
+  display: grid;
+  height: auto;
+  /*height: 665px;*/
+  margin: 0;
+}
+
+.page1 h1 {
+  color: white;
+  font-family: "Savoye LET", cursive;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*body .page5 {
+  display: grid;
+  font-color: white;
+}*/
+
+.page2 .follow {
+  display: grid;
+  justify-content:center;
+  align-items: end;
+}
+
+.page2 h1 {
+  color: white;
+  font-family: "Savoye LET", cursive;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.page2 .album {
+  display: grid;
+  justify-content:center;
+  align-items: end;
+  padding-top: 80px;
+}
+
+.page3 h1, h3 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.page4 h1, h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.page4 .show1, .show2, .show3, .show4 {
+  display: grid;
+  color: white;
+  text-align: center;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding-bottom: 35px;
+}
+
+
+.page5 h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.page5 p {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.page6 h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.page6 h2 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
